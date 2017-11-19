@@ -1,7 +1,10 @@
 public class TesteFatorial {
+// comentario inserido
 	public static void main(String[] args){
 		Fatorial fat = new Fatorial();
-		int r = fat.calculaFatorial(10);
-		System.out.println(r);
+
+		int resultado = fat.calculaFatorial(4);
+		System.out.println(resultado);
+
 	}
 }
